@@ -19,6 +19,12 @@ Microsoft Azure, 2nd edition, is a **complete** rewrite of the 1st edition with 
 * Smriti Srivastava, Acquisitions Editor  
 * Shrikant Vishwakarma, Coordinating Editor
 
+### Repositories
+[All repositories to code and content referenced in the book](https://github.com/harris-soh-copeland-puca?tab=repositories)
+[Sample files](https://github.com/harris-soh-copeland-puca/SampleFiles)
+[Azure Docs](https://github.com/harris-soh-copeland-puca/azure-docs)
+[Azure Tips and Tricks](https://github.com/harris-soh-copeland-puca/AzureTipsAndTricks)
+
 ### Chapters
 #### Part I: Introducing Microsoft Azure  
 Chapter 1  - Microsoft Azure and Cloud Computing  
