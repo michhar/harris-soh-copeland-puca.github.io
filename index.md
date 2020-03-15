@@ -58,17 +58,6 @@ Chapter 21 - CI/CD with Azure DevOps
 ### Acknowledgements
 Thank you to all those who supported us during the rapid development of this book, especially the technical reviewers and the support from many people who lent their time and expertise to provide ideas, suggestions, and answering questions. The authors also wish to thank Apress for the opportunity to update this book and for the wonderful editorial support. Last but not least, we wish to thank our families for their support and tolerating the long hours we spent away from them as we worked on this book. We hope you enjoy and benefit from this book as much as we enjoyed writing it.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
