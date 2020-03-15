@@ -12,7 +12,7 @@ Technical reviewers:
 * Priyanshi Singh
 * Daren Child
 
-Apress:
+Apress:  
 Smriti Srivastava, Acquisitions Editor  
 Shrikant Vishwakarma, Coordinating Editor
 
