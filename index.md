@@ -3,11 +3,11 @@
 Welcome and thank you for reading Microsoft Azure 2nd edition.  
 
 ### About the book
-Microsoft Azure, 2nd edition, is a complete rewrite of the 1st edition with many updated topics, code samples, and use case scenarios. In addition, to keep things updated and the ability to expand beyond the physical limitations of the book, this site and GitHub repo specially for the book was created. You can contact and connect with the authors and technical reviewers here, and provide feedback and build on the material for the book.
+Microsoft Azure, 2nd edition, is a complete rewrite of the 1st edition with many updated topics, code samples, and use case scenarios. We also added more focus in the following areas - data services, application development and DevOps, Artificial Intelligence, and Machine Learning. In addition, to keep things updated and the ability to expand beyond the physical limitations of the book, this site and GitHub repo specially for the book was created. You can contact and connect with the authors and technical reviewers here, provide feedback and build on the material for the book. This book should serve as a very good resource for the reader to gain familiarity on the key capabilities of Microsoft Azure through hands-on exercises that build upon each other. The goal is to help build understanding on how the different Azure services relate with each other and the ease of building solutions in a single comprehensive cloud ecosystem. Readers should be at a greater than 200 level for all these topics after reading this book.
 ### Authors:
 * [Micheleen Harris](https://www.linkedin.com/in/micheleenharris/) (A.I. and Machine Learning)
 * [Julian Soh](https://www.linkedin.com/in/juliansoh/) (Data services, application development/DevOps, A.I., Machine Learning)
-* [Marshall Copeland](https://www.linkedin.com/in/marshallcopeland/) (Infrastructure-as-a-Service and Infrastructure-as-Code)
+* [Marshall Copeland](https://www.linkedin.com/in/marshallcopeland/) (Infrastructure-as-a-Service, Platform-as-a-Service and Infrastructure-as-Code)
 * [Anthony Puca](https://www.linkedin.com/in/anthonypuca/) (Infrastructure-as-a-Service and Networking)
 
 ### Technical reviewers:
