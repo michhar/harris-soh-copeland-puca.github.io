@@ -2,15 +2,15 @@
 
 Welcome and thank you for reading Microsoft Azure 2nd edition.  
 ### Authors:
-* Micheleen Harris (A.I. and Machine Learning)
-* Julian Soh (Data services, application development/DevOps, A.I., Machine Learning)
-* Marshall Copeland (Infrastructure-as-a-Service and Infrastructure-as-Code)
-* Anthony Puca (Infrastructure-as-a-Service and Networking)
+* [Micheleen Harris](https://www.linkedin.com/in/micheleenharris/) (A.I. and Machine Learning)
+* [Julian Soh](https://www.linkedin.com/in/juliansoh/) (Data services, application development/DevOps, A.I., Machine Learning)
+* [Marshall Copeland](https://www.linkedin.com/in/marshallcopeland/) (Infrastructure-as-a-Service and Infrastructure-as-Code)
+* [Anthony Puca](https://www.linkedin.com/in/anthonypuca/) (Infrastructure-as-a-Service and Networking)
 
 ### Technical reviewers:
-* Kurtis Carlson
-* Priyanshi Singh
-* Daren Child
+* [Kurtis Carlson](https://www.linkedin.com/in/kurtis-carlson/)
+* [Priyanshi Singh](https://www.linkedin.com/in/priyanshi-singh-002007133/)
+* [Daren Child - The Data Bear](https://www.linkedin.com/in/daren-child-028a401/)
 
 ### Apress:  
 * Smriti Srivastava, Acquisitions Editor  
