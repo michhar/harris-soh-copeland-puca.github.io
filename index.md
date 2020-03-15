@@ -13,7 +13,7 @@ Technical reviewers:
 * Daren Child
 
 Apress:
-Smriti Srivastava, Acquisitions Editor
+Smriti Srivastava, Acquisitions Editor  
 Shrikant Vishwakarma, Coordinating Editor
 
 ### Chapters
