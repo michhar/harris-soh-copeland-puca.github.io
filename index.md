@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## Microsoft Azure 2nd Edition
 
-You can use the [editor on GitHub](https://github.com/harris-soh-copeland-puca/harris-soh-copeland-puca.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome and thank you for reading Microsoft Azure 2nd edition.  
+The authors of this book are:
+* Micheleen Harris
+* Julian Soh
+* Marshall Copeland
+* Anthony Puca
 
 ### Markdown
 
