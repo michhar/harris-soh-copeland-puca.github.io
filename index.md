@@ -7,41 +7,50 @@ The authors of this book are:
 * Marshall Copeland
 * Anthony Puca
 
+Technical reviewers:
+* Kurtis Carlson
+* Priyanshi Singh
+* Daren Child
+
+Apress:
+Smriti Srivastava, Acquisitions Editor
+Shrikant Vishwakarma, Coordinating Editor
+
 ### Chapters
 Part I: Introducing Microsoft Azure  
 1. Microsoft Azure and Cloud Computing
-1. Overview of Azure Infrastructure-as-a-Service (IaaS)
-1. Overview of Azure Platform-as-a-Serice (PaaS)
-1. Overivew of Azure services for application developers
-1. Ethical AI and the overview of Azure AI and Machine Learning
+2. Overview of Azure Infrastructure-as-a-Service (IaaS)
+3. Overview of Azure Platform-as-a-Serice (PaaS)
+4. Overivew of Azure services for application developers
+5. Ethical AI and the overview of Azure AI and Machine Learning
 
 Part II: Planning and adopting Microsoft Azure
-1. Budgeting and cloud economics
-1. Desiging a hybrid data center
-1. Tools, training, and upskilling existing IT personnel
+6. Budgeting and cloud economics
+7. Desiging a hybrid data center
+8. Tools, training, and upskilling existing IT personnel
 
 Part III: Using Azure for Infrastructure-as-a-Service
-1. Implementing Azure networking
-1. Virtual Machines
-1. Infrastructure-as-Code
+9. Implementing Azure networking
+10. Virtual Machines
+11. Infrastructure-as-Code
 
 Part IV: Adopting Azure as Platform-as-a-Service
-1. WebApps
-1. Network PaaS
-1. Azure Storage
+12. WebApps
+13. Network PaaS
+14. Azure Storage
 
 Part V: Azure - Intelligent Cloud
-1. Azure Cognitive Services (COGS)
-1. Machine Learning and Deep Learning
+15. Azure Cognitive Services (COGS)
+16. Machine Learning and Deep Learning
 
 Part VI: Azure Data Services
-1. Azure Data Services
-1. Migrating on-premises databases to Azure
-1. Data engineering and the modern data estate
+17. Azure Data Services
+18. Migrating on-premises databases to Azure
+19. Data engineering and the modern data estate
 
 Part VII: Azure services for application developers
-1. Developing and deploying Azure-based applications
-1. CI/CD with Azure DevOps
+20. Developing and deploying Azure-based applications
+21. CI/CD with Azure DevOps
 
 # Header 1
 ## Header 2
