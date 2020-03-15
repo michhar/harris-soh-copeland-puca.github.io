@@ -7,7 +7,7 @@ Microsoft Azure, 2nd edition, is a complete rewrite of the 1st edition with many
 ### Authors:
 * [Micheleen Harris](https://www.linkedin.com/in/micheleenharris/) (A.I. and Machine Learning)
 * [Julian Soh](https://www.linkedin.com/in/juliansoh/) (Data services, application development/DevOps, A.I., Machine Learning)
-* [Marshall Copeland](https://www.linkedin.com/in/marshallcopeland/) (Infrastructure-as-a-Service, Platform-as-a-Service and Infrastructure-as-Code)
+* [Marshall Copeland](https://www.linkedin.com/in/marshallcopeland/) (Infrastructure-as-a-Service, Platform-as-a-Service & Infrastructure-as-Code)
 * [Anthony Puca](https://www.linkedin.com/in/anthonypuca/) (Infrastructure-as-a-Service and Networking)
 
 ### Technical reviewers:
