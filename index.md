@@ -1,20 +1,20 @@
 ## Microsoft Azure 2nd Edition (Apress)
 
 Welcome and thank you for reading Microsoft Azure 2nd edition.  
-The authors of this book are:
-* Micheleen Harris
-* Julian Soh
-* Marshall Copeland
-* Anthony Puca
+### Authors:
+* Micheleen Harris (A.I. and Machine Learning)
+* Julian Soh (Data services, application development/DevOps, A.I., Machine Learning)
+* Marshall Copeland (Infrastructure-as-a-Service and Infrastructure-as-Code)
+* Anthony Puca (Infrastructure-as-a-Service and Networking)
 
-Technical reviewers:
+### Technical reviewers:
 * Kurtis Carlson
 * Priyanshi Singh
 * Daren Child
 
-Apress:  
-Smriti Srivastava, Acquisitions Editor  
-Shrikant Vishwakarma, Coordinating Editor
+### Apress:  
+* Smriti Srivastava, Acquisitions Editor  
+* Shrikant Vishwakarma, Coordinating Editor
 
 ### Chapters
 #### Part I: Introducing Microsoft Azure  
