@@ -1,4 +1,4 @@
-## Microsoft Azure 2nd Edition (Apress)
+## Microsoft Azure 2nd Edition
 
 Welcome and thank you for reading Microsoft Azure 2nd edition.  
 
