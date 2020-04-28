@@ -1,0 +1,618 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.0.2">
+    
+    
+      
+        <title>Microsoft Azure - Managing the Intelligent Cloud 2nd Edition</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.07c9fbf5.min.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/palette.ecd4686e.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ffc107">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#microsoft-azure-2nd-edition" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="Microsoft Azure - Managing the Intelligent Cloud 2nd Edition" class="md-header-nav__button md-logo" aria-label="Microsoft Azure - Managing the Intelligent Cloud 2nd Edition">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Microsoft Azure - Managing the Intelligent Cloud 2nd Edition
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Main
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Microsoft Azure - Managing the Intelligent Cloud 2nd Edition" class="md-nav__button md-logo" aria-label="Microsoft Azure - Managing the Intelligent Cloud 2nd Edition">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    Microsoft Azure - Managing the Intelligent Cloud 2nd Edition
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Main
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="." title="Main" class="md-nav__link md-nav__link--active">
+      Main
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-the-book" class="md-nav__link">
+    About the book
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    Authors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-reviewers" class="md-nav__link">
+    Technical reviewers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apress" class="md-nav__link">
+    Apress
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositories" class="md-nav__link">
+    Repositories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapters" class="md-nav__link">
+    Chapters
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-i-introducing-microsoft-azure" class="md-nav__link">
+    Part I: Introducing Microsoft Azure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-ii-planning-and-adopting-microsoft-azure" class="md-nav__link">
+    Part II: Planning and adopting Microsoft Azure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iii-using-azure-for-infrastructure-as-a-service" class="md-nav__link">
+    Part III: Using Azure for Infrastructure-as-a-Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iv-adopting-azure-as-platform-as-a-service" class="md-nav__link">
+    Part IV: Adopting Azure as Platform-as-a-Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-v-azure-intelligent-cloud" class="md-nav__link">
+    Part V: Azure - Intelligent Cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-vi-azure-data-services" class="md-nav__link">
+    Part VI: Azure Data Services
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-vii-azure-services-for-application-developers" class="md-nav__link">
+    Part VII: Azure services for application developers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Chapters
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Chapters" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Chapters
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="ch16/" title="Chapter 16" class="md-nav__link">
+      Chapter 16
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-the-book" class="md-nav__link">
+    About the book
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authors" class="md-nav__link">
+    Authors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-reviewers" class="md-nav__link">
+    Technical reviewers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apress" class="md-nav__link">
+    Apress
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repositories" class="md-nav__link">
+    Repositories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapters" class="md-nav__link">
+    Chapters
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#part-i-introducing-microsoft-azure" class="md-nav__link">
+    Part I: Introducing Microsoft Azure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-ii-planning-and-adopting-microsoft-azure" class="md-nav__link">
+    Part II: Planning and adopting Microsoft Azure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iii-using-azure-for-infrastructure-as-a-service" class="md-nav__link">
+    Part III: Using Azure for Infrastructure-as-a-Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-iv-adopting-azure-as-platform-as-a-service" class="md-nav__link">
+    Part IV: Adopting Azure as Platform-as-a-Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-v-azure-intelligent-cloud" class="md-nav__link">
+    Part V: Azure - Intelligent Cloud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-vi-azure-data-services" class="md-nav__link">
+    Part VI: Azure Data Services
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-vii-azure-services-for-application-developers" class="md-nav__link">
+    Part VII: Azure services for application developers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="microsoft-azure-2nd-edition">Microsoft Azure 2nd Edition</h1>
+<p>Welcome and thank you for reading Microsoft Azure 2nd edition.</p>
+<h3 id="about-the-book">About the book</h3>
+<p>Microsoft Azure, 2nd edition, is a <strong>complete</strong> rewrite of the 1st edition with many updated topics, code samples, and use case scenarios. We also added more focus in the following areas - data services, application development and DevOps, Artificial Intelligence, and Machine Learning. In addition, to keep things updated and the ability to expand beyond the physical limitations of the book, this site and <a href="https://github.com/harris-soh-copeland-puca?tab=repositories">GitHub repos</a> were specially for the book. You can contact and connect with the authors and technical reviewers here, provide feedback and build on the material for the book. This book should serve as a very good resource for the reader to gain familiarity on the key capabilities of Microsoft Azure through hands-on exercises that build upon each other. The goal is to help build understanding on how the different Azure services relate with each other and the ease of building solutions in a single comprehensive cloud ecosystem. Readers should be at a greater than 200 level for all these topics after reading this book.</p>
+<h3 id="authors">Authors</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/juliansoh/">Julian Soh</a> (Data services, application development/DevOps, A.I., Machine Learning)</li>
+<li><a href="https://www.linkedin.com/in/marshallcopeland/">Marshall Copeland</a> (Infrastructure-as-a-Service, Platform-as-a-Service &amp; Infrastructure-as-Code)</li>
+<li><a href="https://www.linkedin.com/in/anthonypuca/">Anthony Puca</a> (Infrastructure-as-a-Service and Networking)</li>
+<li><a href="https://www.linkedin.com/in/micheleenharris/">Micheleen Harris</a> (A.I. and Machine Learning)</li>
+</ul>
+<h3 id="technical-reviewers">Technical reviewers</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/kurtis-carlson/">Kurtis Carlson</a></li>
+<li><a href="https://www.linkedin.com/in/priyanshi-singh-002007133/">Priyanshi Singh</a></li>
+<li><a href="https://www.linkedin.com/in/daren-child-028a401/">Daren Child - The Data Bear</a></li>
+</ul>
+<h3 id="apress">Apress</h3>
+<ul>
+<li>Smriti Srivastava, Acquisitions Editor  </li>
+<li>Shrikant Vishwakarma, Coordinating Editor</li>
+</ul>
+<h3 id="repositories">Repositories</h3>
+<p><a href="https://github.com/harris-soh-copeland-puca?tab=repositories">All repositories to code and content referenced in the book</a><br />
+<a href="https://github.com/harris-soh-copeland-puca/SampleFiles">Sample files</a><br />
+<a href="https://github.com/harris-soh-copeland-puca/azure-docs">Azure Docs</a><br />
+<a href="https://github.com/harris-soh-copeland-puca/AzureTipsAndTricks">Azure Tips and Tricks</a>  </p>
+<h3 id="chapters">Chapters</h3>
+<h4 id="part-i-introducing-microsoft-azure">Part I: Introducing Microsoft Azure</h4>
+<p>Chapter 1  - Microsoft Azure and Cloud Computing<br />
+Chapter 2  - Overview of Azure Infrastructure-as-a-Service (IaaS)<br />
+Chapter 3  - Overview of Azure Platform-as-a-Serice (PaaS)<br />
+Chapter 4  - Overivew of Azure services for application developers<br />
+Chapter 5  - Ethical AI and the overview of Azure AI and Machine Learning  </p>
+<h4 id="part-ii-planning-and-adopting-microsoft-azure">Part II: Planning and adopting Microsoft Azure</h4>
+<p>Chapter 6  - Budgeting and cloud economics<br />
+Chapter 7  - Desiging a hybrid data center<br />
+Chapter 8  - Tools, training, and upskilling existing IT personnel  </p>
+<h4 id="part-iii-using-azure-for-infrastructure-as-a-service">Part III: Using Azure for Infrastructure-as-a-Service</h4>
+<p>Chapter 9  - Implementing Azure networking<br />
+Chapter 10 - Virtual Machines<br />
+Chapter 11 - Infrastructure-as-Code  </p>
+<h4 id="part-iv-adopting-azure-as-platform-as-a-service">Part IV: Adopting Azure as Platform-as-a-Service</h4>
+<p>Chapter 12 - WebApps<br />
+Chapter 13 - Network PaaS<br />
+Chapter 14 - Azure Storage  </p>
+<h4 id="part-v-azure-intelligent-cloud">Part V: Azure - Intelligent Cloud</h4>
+<p>Chapter 15 - Azure Cognitive Services (COGS)<br />
+Chapter 16 - Machine Learning and Deep Learning  </p>
+<h4 id="part-vi-azure-data-services">Part VI: Azure Data Services</h4>
+<p>Chapter 17 - Azure Data Services<br />
+Chapter 18 - Migrating on-premises databases to Azure<br />
+Chapter 19 - Data engineering and the modern data estate  </p>
+<h4 id="part-vii-azure-services-for-application-developers">Part VII: Azure services for application developers</h4>
+<p>Chapter 20 - Developing and deploying Azure-based applications<br />
+Chapter 21 - CI/CD with Azure DevOps  </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thank you to all those who supported us during the rapid development of this book, especially the technical reviewers and the support from many people who lent their time and expertise to provide ideas, suggestions, and answering questions. The authors also wish to thank Apress for the opportunity to update this book and for the wonderful editorial support. Last but not least, we wish to thank our families for their support and tolerating the long hours we spent away from them as we worked on this book. We hope you enjoy and benefit from this book as much as we enjoyed writing it.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="ch16/" title="Chapter 16" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Chapter 16
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.36cbf620.min.js"></script>
+      <script src="assets/javascripts/bundle.00c583dd.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.7f7c8775.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
